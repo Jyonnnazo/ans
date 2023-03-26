@@ -1,6 +1,5 @@
 body {
-    background: linear-gradient(-225deg, #2CD8D5 0%, #C5C1FF 56%, #FFBAC3 100%);
-    background-size: cover;
+    background-color: #ff;
     margin: 0 auto;
     width: 100vw; 
 }
