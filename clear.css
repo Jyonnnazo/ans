@@ -25,32 +25,8 @@ section {
     text-align: center;
 }
 
-.clear a {
-    background-color: #0000ff;
-    display: inline-block;
-    width: 30vw;
-    height: 9vw;
-    line-height: 9vw;
-    padding: 1vw 1.8vw 1vw 1.8vw;
-    margin-top: 10vw;
-    margin-bottom: 5vw;
-}
-
-.clear p {
-    font-size: 40px;
-    line-height: 10px;
-    padding-top: 10px;
-    margin: 0;
-    vertical-align: middle;
-}
-
-.clear a p {
-    padding-top: 4vw;
-}
-
 .btn {
     margin-top: 35vw;
-    margin: 0 auto;
 }
 
 .btn p {
@@ -70,15 +46,23 @@ a p {
 }
 
 .tweet {
+    background-color: #0000ff;
+    display: inline-block;
+    width: 30vw;
+    height: 9vw;
+    line-height: 9vw;
+    padding: 1vw 1.8vw 1vw 1.8vw;
+    margin-top: 10vw;
+    margin-bottom: 5vw;
     border: 3px #000 solid;
 }
 
 .end {
     background-color: #00ff00;
-    width: 80vw;
-    height: 9vw;
-    line-height: 9vw;
+    width: 40vw;
+    height: 14vw;
+    line-height: 14vw;
     border: 3px #000 solid;
     margin-right: 2.45vw;
-    margin-bottom: 5vw;
+    margin-bottom: 3vw;
 }
