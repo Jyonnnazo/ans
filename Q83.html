@@ -4,12 +4,7 @@
 <meta charset="utf-8">
 <title>Jyonn謎#83</title>
 <link rel="stylesheet" href="styleQ.css">
-<script>
-function enterkeysubmit(){
-if(window.event.keyCode==13)
-check();
-}
-                                                              
+<script>                                                      
 function check(){
 const popup = document.getElementById("popup")
 if (document.checkform.answer.value=="答え"){
@@ -30,7 +25,7 @@ else {alert("不正解です")}
 </div>
 <div class="command">
 <form name="checkform">
-<input type='text' class="ans" name="answer" placeholder="解答欄 (h1→ヒント１ ヒント全１つ)" onkeydown="enterkeysubmit();">
+<input type='text' class="ans" name="answer" placeholder="解答欄 (h1→ヒント１ ヒント全１つ)">
 <input type="button" class="send" value="送信" onClick="check()">
 </form>
 
