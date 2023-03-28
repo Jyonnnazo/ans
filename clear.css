@@ -50,6 +50,7 @@ section {
 
 .btn {
     margin-top: 35vw;
+    margin: 0 auto;
 }
 
 .btn p {
@@ -70,7 +71,7 @@ a p {
 
 .tweet {
     border: 3px #000 solid;
-    margin: 0 auto; 
+    margin: 0 auto;
 }
 
 .end {
@@ -79,6 +80,5 @@ a p {
     height: 14vw;
     line-height: 14vw;
     border: 3px #000 solid;
-    margin-right: 2.45vw;
-    margin-bottom: 3vw;
+    margin: 0 auto;
 }
