@@ -25,12 +25,8 @@ body {
 
 .nazo {
     width: 100vw;
-}
-
-img {
-    height: 90vw;
-    width: 90vw;
-    border: 0.5vw #000000 solid;
+    height: 90vh;
+    width: 90vh;
     text-align: center;
 }
 
