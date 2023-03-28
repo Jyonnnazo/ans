@@ -25,9 +25,12 @@ body {
 
 .nazo {
     width: 100vw;
+}
+
+ing {
+    margin-right: 5vh;
     height: 90vh;
     width: 90vh;
-    text-align: center;
 }
 
 .aa {
