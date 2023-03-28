@@ -28,9 +28,9 @@ body {
 }
 
 ing {
-    margin-right: 5vh;
     height: 90vh;
     width: 90vh;
+    border: 0.5vw #000000 solid;
 }
 
 .aa {
