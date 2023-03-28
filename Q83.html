@@ -14,10 +14,15 @@
 </div>
 <div class="command">
 <form name="checkform">
-<input type="text" class="ans" name="answer" placeholder="解答欄 (h1→ヒント１ ヒント全１つ)" onkeydown="check();>
+<input type='text' class="ans" name="answer" placeholder="解答欄 (h1→ヒント１ ヒント全１つ)" onkeydown="enterkeysubmit();">
 <input type="button" class="send" value="送信" onClick="check()">
 </form>
 <script>
+function enterkeysubmit(){
+if(window.event.keyCode==13)
+check();
+}
+                                                              
 function check(){
 const popup = document.getElementById("popup")
 if (document.checkform.answer.value=="答え"){
