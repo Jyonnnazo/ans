@@ -69,11 +69,11 @@ a p {
     line-height: 9vw;
 }
 
-.tweet {
+.btn tweet {
     border: 3px #000 solid;
 }
 
-.end {
+.btn end {
     background-color: #00ff00;
     width: 80vw;
     height: 9vw;
