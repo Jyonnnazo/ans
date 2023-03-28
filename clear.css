@@ -2,7 +2,7 @@ body {
     background: #fff8f0;
     background-size: cover;
     height: 100vh;
-    margin: 0 auto;
+    margin: 50vh auto 0;
     width: 100vw;
     transform: translateY(-50%);
 }
