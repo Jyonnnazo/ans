@@ -75,10 +75,10 @@ a p {
 
 .end {
     background-color: #00ff00;
-    width: 40vw;
-    height: 14vw;
-    line-height: 14vw;
+    width: 80vw;
+    height: 9vw;
+    line-height: 9vw;
     border: 3px #000 solid;
     margin-right: 2.45vw;
-    margin-bottom: 3vw;
+    margin-bottom: 5vw;
 }
