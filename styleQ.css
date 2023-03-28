@@ -29,6 +29,7 @@ body {
 }
 
 img {
+    object-fit: cover;
     width: 90%;
     border: 0.5vw #000000 solid;
 }
