@@ -29,8 +29,8 @@ body {
 }
 
 img {
-    height: 90vh;
-    width: 90vh;
+    height: 90vw;
+    width: 90vw;
     border: 0.5vw #000000 solid;
 }
 
