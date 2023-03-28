@@ -1,8 +1,6 @@
 body {
     background-color: #fff8f0;
-    margin: 50vh auto 0;
     width: 100vw;
-    transform: translateY(-50%);
 }
 
 .number {
