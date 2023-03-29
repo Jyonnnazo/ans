@@ -1,8 +1,8 @@
 body {
     background-color: #fff8f0;
-    height: 100vh;
-    margin: 0 auto;
     width: 100vw;
+    margin: 40vh auto;
+    transform: translateY(-40%);
 }
 
 a {
@@ -25,31 +25,16 @@ section {
     text-align: center;
 }
 
-.clear a {
-    background-color: #0000ff;
-    display: inline-block;
-    width: 30vw;
-    height: 9vw;
-    line-height: 9vw;
-    padding: 1vw 1.8vw 1vw 1.8vw;
-    margin-top: 10vw;
-    margin-bottom: 5vw;
-}
-
 .clear p {
     font-size: 40px;
-    line-height: 10px;
+    line-height: 55px;
     padding-top: 10px;
     margin: 0;
     vertical-align: middle;
 }
 
-.clear a p {
-    padding-top: 4vw;
-}
-
 .btn {
-    margin-top: 35vw;
+    margin-top: 2vw;
 }
 
 .btn p {
@@ -69,6 +54,14 @@ a p {
 }
 
 .tweet {
+    background-color: #0000ff;
+    display: inline-block;
+    width: 30vw;
+    height: 9vw;
+    line-height: 9vw;
+    padding: 1vw 1.8vw 1vw 1.8vw;
+    margin-top: 10vw;
+    margin-bottom: 5vw;
     border: 3px #000 solid;
 }
 
@@ -78,6 +71,4 @@ a p {
     height: 14vw;
     line-height: 14vw;
     border: 3px #000 solid;
-    margin-right: 2.45vw;
-    margin-bottom: 3vw;
 }
