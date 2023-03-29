@@ -1,8 +1,8 @@
 body {
     background-color: #fff8f0;
     width: 100vw;
-    margin: 30vh auto;
-    transform: translateY(-30%);
+    margin: 35vh auto;
+    transform: translateY(-35%);
 }
 
 a {
@@ -19,22 +19,16 @@ section {
 }
 
 .clear {
-    margin: 30px;
     height: 9vw;
-    line-height: 9vw;
+    line-height: 50px;
     text-align: center;
 }
 
 .clear p {
     font-size: 40px;
-    line-height: 55px;
-    padding-top: 10px;
+    line-height: 10px;
     margin: 0;
     vertical-align: middle;
-}
-
-.btn {
-    margin-top: 2vw;
 }
 
 .btn p {
@@ -54,21 +48,19 @@ a p {
 }
 
 .tweet {
+    margin-top: 4vw;
     background-color: #0000ff;
-    display: inline-block;
     width: 30vw;
     height: 9vw;
     line-height: 9vw;
-    padding: 1vw 1.8vw 1vw 1.8vw;
-    margin-top: 10vw;
-    margin-bottom: 5vw;
     border: 3px #000 solid;
 }
 
 .end {
+    margin-top: 2vw;
     background-color: #00ff00;
-    width: 40vw;
-    height: 14vw;
-    line-height: 14vw;
+    width: 30vw;
+    height: 9vw;
+    line-height: 9vw;
     border: 3px #000 solid;
 }

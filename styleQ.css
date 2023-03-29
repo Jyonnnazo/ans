@@ -16,26 +16,16 @@ body {
     text-align: center;
 }
 
-.number p {
-    font-size: 40px;
-    color: #55aaff;
-    height: 12vw;
-    margin: 0;
-}
-
 .nazo {
     width: 100vw;
     text-align: center;
 }
 
 img {
+    margin-top: 6vw;
     object-fit: cover;
     width: 90%;
     border: 0.5vw #000000 solid;
-}
-
-.aa {
-    background-color: #ffffff;
 }
 
 form {
