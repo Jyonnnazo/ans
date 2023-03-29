@@ -34,6 +34,7 @@ form {
 
 .ans {
     display: inline-block;
+    font-family: "pixelMplus12";
     font-size: 32px;
     width: 58vw;
     height: 5.2vw;
@@ -44,8 +45,9 @@ form {
 
 .send {
     display: inline-block;
-    background-color: #d23c0a;
+    background-color: #ff00ff;
     color: white;
+    font-family: "pixelMplus12";
     font-size: 32px;
     width: 15vw;
     height: 9.6vw;
