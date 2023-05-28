@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>Jyonn謎#92</title>
+<link rel="stylesheet" href="styleQ.css">
+<script>                                                      
+function check(){
+const popup = document.getElementById("popup")
+if (document.checkform.answer.value=="3"||document.checkform.answer.value=="３"){
+location.replace("Q92clear.html");}
+else if(document.checkform.answer.value=="h1"||document.checkform.answer.value=="H1"){
+alert("ヒントはまだありません。")
+}
+else {alert("不正解です")}
+}
+</script>
+</head>
+<body>
+<div class="nazo">
+<img src = "https://github.com/Jyonnnazo/ans/blob/main/%2392.jpg?raw=true">
+</div>
+<br>
+<div class="command">
+<form name="checkform">
+<input type='text' class="ans" name="answer" placeholder="解答欄">
+<input type="button" class="send" value="送信" onClick="check()">
+</form>
+
+<a class="btn end" href="index.html"><p>× 閉じる</p></a>
+</div>
+</body>
+</html>
