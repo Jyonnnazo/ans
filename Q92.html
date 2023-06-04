@@ -10,7 +10,7 @@ const popup = document.getElementById("popup")
 if (document.checkform.answer.value=="3"||document.checkform.answer.value=="３"){
 location.replace("Q92clear.html");}
 else if(document.checkform.answer.value=="h1"||document.checkform.answer.value=="H1"){
-alert("ヒントはまだありません。")
+alert("数字と隣り合う線に注目しよう")
 }
 else {alert("不正解です")}
 }
@@ -23,7 +23,7 @@ else {alert("不正解です")}
 <br>
 <div class="command">
 <form name="checkform">
-<input type='text' class="ans" name="answer" placeholder="解答欄">
+<input type='text' class="ans" name="answer" placeholder="解答欄 (h1→ヒント１ ヒント全１つ)">
 <input type="button" class="send" value="送信" onClick="check()">
 </form>
 
