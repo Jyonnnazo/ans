@@ -2,18 +2,15 @@
 <html lang="ja">
 <head>
 <meta charset="utf-8">
-<title>Jyonn謎#93</title>
+<title>Jyonn謎#94</title>
 <link rel="stylesheet" href="styleQ.css">
 <script>                                                      
 function check(){
 const popup = document.getElementById("popup")
-if (document.checkform.answer.value=="昇降口"||document.checkform.answer.value=="しょうこうぐち"){
-location.replace("Q93clear.html");}
+if (document.checkform.answer.value=="ふるい"||document.checkform.answer.value=="古い"){
+location.replace("Q94clear.html");}
 else if(document.checkform.answer.value=="h1"||document.checkform.answer.value=="H1"){
-alert("1級に上がること、3級に下がることを何という？")
-}
-else if(document.checkform.answer.value=="h2"||document.checkform.answer.value=="H2"){
-alert("答えは学校に関係するよ")
+alert("ヒントはまだありません。")
 }
 else {alert("不正解です")}
 }
@@ -21,12 +18,12 @@ else {alert("不正解です")}
 </head>
 <body>
 <div class="nazo">
-<img src = "https://github.com/Jyonnnazo/ans/blob/main/%2393.jpg?raw=true">
+<img src = "https://github.com/Jyonnnazo/ans/blob/main/%2394.jpg?raw=true">
 </div>
 <br>
 <div class="command">
 <form name="checkform">
-<input type='text' class="ans" name="answer" placeholder="解答欄 (h1→ヒント１ ヒント全２つ)">
+<input type='text' class="ans" name="answer" placeholder="解答欄">
 <input type="button" class="send" value="送信" onClick="check()">
 </form>
 
