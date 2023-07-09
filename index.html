@@ -53,7 +53,7 @@ form{
 </head>
 <body>
 <script>
-var banngou = 96;
+var banngou = 97;
 </script>
 
 <form oninput="banngou = Number(banngou100.value * 100) + Number(banngou10.value * 10) + Number(banngou1.value * 1);" id="form">
@@ -89,8 +89,8 @@ var banngou = 96;
 <option value="3">3</option>
 <option value="4">4</option>
 <option value="5">5</option>
-<option value="6"selected>6</option>
-<option value="7">7</option>
+<option value="6">6</option>
+<option value="7"selected>7</option>
 <option value="8">8</option>
 <option value="9">9</option>
 </select>
@@ -148,7 +148,10 @@ else if(banngou==96){
 location.replace("Q96.html");
 }
 else if(banngou==97){
-alert("7/2の19:30公開！")
+location.replace("Q97.html");
+}
+else if(banngou==98){
+alert("7/16の19:30公開！")
 }
 else{
 alert(banngou+"問目はありません")
