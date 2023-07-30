@@ -53,14 +53,14 @@ form{
 </head>
 <body>
 <script>
-var banngou = 99;
+var banngou = 100;
 </script>
 
 <form oninput="banngou = Number(banngou100.value * 100) + Number(banngou10.value * 10) + Number(banngou1.value * 1);" id="form">
 <p class="head">問題番号を選択してください</p>
 <select name="banngou100" class="select" id="a">
-<option value="0" selected>0</option>
-<option value="1">1</option>
+<option value="0">0</option>
+<option value="1"selected>1</option>
 <option value="2">2</option>
 <option value="3">3</option>
 <option value="4">4</option>
@@ -71,7 +71,7 @@ var banngou = 99;
 <option value="9">9</option>
 </select>
 <select name="banngou10" class="select" id="b">
-<option value="0">0</option>
+<option value="0"selected>0</option>
 <option value="1">1</option>
 <option value="2">2</option>
 <option value="3">3</option>
@@ -80,10 +80,10 @@ var banngou = 99;
 <option value="6">6</option>
 <option value="7">7</option>
 <option value="8">8</option>
-<option value="9"selected>9</option>
+<option value="9">9</option>
 </select>
 <select name="banngou1" class="select" id="c">
-<option value="0">0</option>
+<option value="0"selected>0</option>
 <option value="1">1</option>
 <option value="2">2</option>
 <option value="3">3</option>
@@ -92,7 +92,7 @@ var banngou = 99;
 <option value="6">6</option>
 <option value="7">7</option>
 <option value="8">8</option>
-<option value="9"selected>9</option>
+<option value="9">9</option>
 </select>
 <br><br>
 <form name="checkform">
@@ -157,7 +157,7 @@ else if(banngou==99){
 location.replace("Q99.html");
 }
 else if(banngou==100){
-location.replace("Q100前.html");
+location.replace("Q100.html");
 }
 else{
 alert(banngou+"問目はありません")
